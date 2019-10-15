@@ -9,7 +9,7 @@ if __name__ == "__main__":
     stock = OC(input('Which stock ticker would you like to check? \n'))
     print('----------------')
 
-    print('Price' + str(stock.ask))
+    print('Price: ' + str(stock.ask))
     print('Description: ' + stock.description)
     expDecision = input('Would you like to see the expirations? \n').lower()
 
