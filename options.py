@@ -11,12 +11,12 @@ TOKEN = open('tokens.txt').readline().split(':')[1].strip()
 class OptionsCalc:
 
     def __init__(self, ticker):
-        self.ticker = ticker
-        self.expiration = None
-        self.Otype = None
-        self.strike = None
-        self.contract = None
-        self.datesUntilExp = None
+        self.ticker = ticker #Stock Ticker
+        self.expiration = None #Expiration date yyyy-mm-dd
+        self.Otype = None #Option type
+        self.strike = None #Strike price
+        self.contract = None #Contract price
+        self.datesUntilExp = None #List of dates until expiration
         self.sigma = None #Implied volatility
         self.rf = .0165 #Risk free rate
 
