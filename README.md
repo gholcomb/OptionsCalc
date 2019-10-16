@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-OptionsCalc is a CLI for calculating a payoff matrix for a stock option. Once you have the API Key from Tradier, run main.py to see a sample of what you can do with OptionsCalc.
+OptionsCalc is a CLI for calculating a payoff matrix for a stock option. Once you have the API Key from Tradier, run example.py to see a sample of what you can do with OptionsCalc.
 
 ## Demo
 
